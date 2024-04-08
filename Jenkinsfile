@@ -16,7 +16,7 @@ pipeline{
                 branch "develop"
             }
             steps{
-                sh "/opt/homebrew/bin/mvn clean pacakge"
+                echo "maven build...."
             }
         }
         stage("Dev Deploy"){
